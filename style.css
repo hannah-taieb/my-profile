@@ -1,0 +1,109 @@
+body {
+	background-color: #EDDFE0;
+	color: rgba(30, 30, 30, 1.0);
+	font-family: "Lora", serif;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: light;
+}
+
+h1 {
+	color: deeppink;
+	font-family: "Roboto", sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+h2 {
+	color: #A0153E;
+	font-family: "Roboto", sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+img {
+	width: 200px ;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: deeppink ;
+	font-size: 16px;
+}
+
+a:hover {
+	color: mediumvioletred;
+}
+
+.container {
+	width: 850px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.box-design {
+	background: white;                         
+	padding: 30px;                             
+	border-radius: 10px;                        
+	box-shadow: 0 10px 30px #FFC6C6;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+#shadow{
+	box-shadow: 7px 7px 15px grey;
+}
+
+.btn-pink {
+	background-color: deeppink ; 
+	color: white;
+	padding: 12px 18px;
+	border-radius: 10px;
+}
+
+.btn-pink:hover {
+	background-color: mediumvioletred ; 
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 35px;
+}
+
+#introduction p{
+	margin-bottom: 25px;
+}
+
+
